@@ -23,7 +23,7 @@ resource "aws_ecs_service" "ecs-service" {
 
   # iam_role        = "${var.role_arn}"
   load_balancer {
-    elb_name         = ""
+    # elb_name         = ""
     target_group_arn = "${var.tg_arn}"
     container_name   = "${var.container_name}"
     container_port   = 80
