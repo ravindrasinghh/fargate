@@ -1,7 +1,7 @@
 [
     {
       "name": "backend",
-      "image": "224931607066.dkr.ecr.ap-southeast-1.amazonaws.com/ravindrasingh6969/load",
+      "image": "659604645969.dkr.ecr.ap-southeast-1.amazonaws.com/ravindrasingh6969/load",
       "essential": true,
       "portMappings": [
         {
