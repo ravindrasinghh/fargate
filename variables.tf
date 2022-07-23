@@ -4,6 +4,7 @@ variable "profile" {
 
 
 variable "region" {
+  type    = string
   default = "ap-southeast-1" # region where you want to launch your resources
 }
 variable "env" {
